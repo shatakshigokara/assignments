@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+.box{
+    background-color:rgb(174, 233, 174);
+    width:500px;
+    text-align: start;
+    padding-bottom: 20px;
+       
+}
+section{
+    align-content: center;
+
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100px;
+    width:100px;    
+}
+h6,h3{
+    margin-left: 50px;
+    color: blue;
+}
+.box p{
+    margin-left: 75px;
+}
+section{   
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: beige;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.box{
+    background-color:rgb(206, 245, 35);
+    width:500px;
+    text-align: start;
+    padding-bottom: 20px;
+}
+.stg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:none;
+    padding-bottom: 50px;
+}

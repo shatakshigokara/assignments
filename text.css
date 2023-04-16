@@ -1,0 +1,21 @@
+p{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(76, 0, 255);
+    margin-top: 20%;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.one:hover + .two{
+    display: inline;
+    z-index: 1;
+}
+.one{
+    background-color: rgb(22, 243, 14);
+}
+.two{
+    background-color: rgb(245, 136, 122);
+    display: none;
+}
